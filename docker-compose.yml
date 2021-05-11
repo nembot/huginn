@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  mysql:
+    container_name: "huginn_mysql"
+    hostname: "mysql"
+    image: mysql/8.0.24
+    volumes:
+      
